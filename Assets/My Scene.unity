@@ -1,0 +1,3710 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.005
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
+  m_AmbientEquatorColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
+  m_AmbientGroundColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: da976b1a4f7ebb949b0f71341e4f1821, type: 2}
+  m_HaloStrength: 0.7
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 256
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.6834428, g: 0.7761022, b: 0.8526729, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 1
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_AtlasSize: 2048
+    m_AO: 0
+    m_AOMaxDistance: 60
+    m_CompAOExponent: 2
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 0
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 3
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 0
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 112000000, guid: bfa7df2a73935b74692238100a3eae5f,
+    type: 2}
+  m_UseShadowmask: 0
+--- !u!1 &49
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114}
+  - component: {fileID: 240}
+  - component: {fileID: 370}
+  - component: {fileID: 181}
+  - component: {fileID: 50}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &50
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e583f92040a7038488cca19edc24b65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 74406467}
+--- !u!1 &57
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122}
+  m_Layer: 0
+  m_Name: Quest Cubes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &60
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 125}
+  - component: {fileID: 135}
+  - component: {fileID: 367}
+  - component: {fileID: 311}
+  - component: {fileID: 309}
+  - component: {fileID: 430}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &61
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 126}
+  - component: {fileID: 250}
+  - component: {fileID: 255}
+  - component: {fileID: 191}
+  m_Layer: 0
+  m_Name: Plane 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &62
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127}
+  - component: {fileID: 251}
+  - component: {fileID: 256}
+  - component: {fileID: 192}
+  m_Layer: 0
+  m_Name: Plane 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &63
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128}
+  - component: {fileID: 252}
+  - component: {fileID: 257}
+  - component: {fileID: 193}
+  m_Layer: 0
+  m_Name: Plane 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &64
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 129}
+  - component: {fileID: 253}
+  - component: {fileID: 258}
+  - component: {fileID: 194}
+  m_Layer: 0
+  m_Name: Plane 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &65
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130}
+  - component: {fileID: 366}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &69
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134}
+  - component: {fileID: 435}
+  - component: {fileID: 374}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &70 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &71 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &73 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &74 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &75 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &76 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &77 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &78 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &79 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &80 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &81 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &82 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &83 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &84 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &85 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &86 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &87 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &88 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &89 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &90 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &91 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &92 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &93 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &94 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &95 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &96 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &97 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &98 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &100 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &101 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &102 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &105 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &109 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &111 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 642.81775, y: 600, z: 183.51476}
+  m_LocalScale: {x: 20, y: 1, z: 20}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &117 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 70}
+  - {fileID: 71}
+  - {fileID: 73}
+  - {fileID: 74}
+  - {fileID: 75}
+  - {fileID: 76}
+  - {fileID: 77}
+  - {fileID: 78}
+  - {fileID: 79}
+  - {fileID: 80}
+  - {fileID: 81}
+  - {fileID: 82}
+  - {fileID: 83}
+  - {fileID: 84}
+  - {fileID: 85}
+  - {fileID: 86}
+  - {fileID: 87}
+  - {fileID: 88}
+  - {fileID: 89}
+  - {fileID: 90}
+  - {fileID: 91}
+  - {fileID: 92}
+  - {fileID: 93}
+  - {fileID: 94}
+  - {fileID: 95}
+  - {fileID: 96}
+  - {fileID: 97}
+  - {fileID: 98}
+  - {fileID: 99}
+  - {fileID: 100}
+  - {fileID: 101}
+  - {fileID: 102}
+  - {fileID: 103}
+  - {fileID: 104}
+  - {fileID: 105}
+  - {fileID: 106}
+  - {fileID: 107}
+  - {fileID: 108}
+  - {fileID: 109}
+  - {fileID: 110}
+  - {fileID: 111}
+  - {fileID: 112}
+  - {fileID: 113}
+  - {fileID: 116}
+  - {fileID: 117}
+  - {fileID: 119}
+  - {fileID: 120}
+  - {fileID: 121}
+  - {fileID: 124}
+  - {fileID: 123}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 1000, y: 700, z: 625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61}
+  m_LocalRotation: {x: 0.5, y: -0.5000001, z: 0.5, w: 0.49999994}
+  m_LocalPosition: {x: 2000, y: 200, z: 1000}
+  m_LocalScale: {x: 200, y: 0, z: 40}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62}
+  m_LocalRotation: {x: 0.7071066, y: 0, z: 0, w: -0.70710695}
+  m_LocalPosition: {x: 1000, y: 200, z: 2000}
+  m_LocalScale: {x: 200, y: 0, z: 40}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 1000, y: 200, z: 0}
+  m_LocalScale: {x: 200, y: 0, z: 40}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64}
+  m_LocalRotation: {x: -0.5000002, y: -0.4999999, z: 0.49999982, w: -0.50000006}
+  m_LocalPosition: {x: 0, y: 200, z: 1000}
+  m_LocalScale: {x: 200, y: 0, z: 40}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65}
+  m_LocalRotation: {x: 0.49701405, y: 0.5156445, z: 0.16690806, w: 0.6776649}
+  m_LocalPosition: {x: 812.5054, y: 103.38687, z: 65.81683}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &135
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 625
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!23 &181
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &191
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &192
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &193
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ba05f538ee36044da5cd2a4f14a8b18, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &194
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &240
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &250
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &251
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &252
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &253
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &255
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &256
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!81 &309
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60}
+  m_Enabled: 0
+--- !u!92 &311
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60}
+  m_Enabled: 0
+--- !u!108 &366
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!124 &367
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60}
+  m_Enabled: 0
+--- !u!136 &370
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5000001
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!154 &374
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 5ccf56c779e564cd7878269cb11bcd6b, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!114 &430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d8232fd3eabeb4c887831d1be5e55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!218 &435
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_TerrainData: {fileID: 15600000, guid: 5ccf56c779e564cd7878269cb11bcd6b, type: 2}
+  m_TreeDistance: 2000
+  m_TreeBillboardDistance: 90
+  m_TreeCrossFadeLength: 15
+  m_TreeMaximumFullLODCount: 120
+  m_DetailObjectDistance: 100
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 11
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_CastShadows: 1
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialType: 0
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 0
+  m_ScaleInLightmap: 1
+  m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_AllowAutoConnect: 0
+--- !u!1001 &436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1476.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 441.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 158.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 70.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6892922526a0b42fa833ca72bfbc64d1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1724.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6892922526a0b42fa833ca72bfbc64d1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6892922526a0b42fa833ca72bfbc64d1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 798.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 6892922526a0b42fa833ca72bfbc64d1, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 6892922526a0b42fa833ca72bfbc64d1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 74406465}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6892922526a0b42fa833ca72bfbc64d1, type: 3}
+--- !u!1001 &439
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1225.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 103.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1410.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1294.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 181.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1483.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1450.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 181.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1360.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1409
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 168.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1095.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1983.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 729.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 936.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 798.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 492
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 865
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 224.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 137.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 689.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &447
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 507.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 923.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 881.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1446.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 731.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 964.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 947.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 772.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &451
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1383.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 62.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 899.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &452
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1724.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 878.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1760.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 55.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 664
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1611.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 94.39714
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1115.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &455
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1471.0287
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 112.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1099.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1244.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 53.16308
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1428.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1349.589
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.302992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1551.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1576.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 111
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1190.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1638.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1666
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1223.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1433.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &461
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 953
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 52.08001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1398.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 459.79422
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 87.138016
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1705.5487
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 248.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 53.43051
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1879.2363
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &464
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 316.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1798.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 558.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 84.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1689.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 477.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1294.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 805.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1432.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 836.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 193.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1934.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 867.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1789.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 71.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1810.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1135.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1834.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 413.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 140.78394
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1495.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 402.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 94.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1291.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &474
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 305.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 88.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1201.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 216.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.551609
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 947.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 656.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 57.682583
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 826.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 428.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 677.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 649.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 46.87381
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 791.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 614.06335
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34.324837
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 216.88734
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 658.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 95.546135
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 980.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+      propertyPath: m_Range
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d06f69312a39f46b3b9bd6b58d81389e, type: 3}
+--- !u!1001 &481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1248.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.792221
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 124.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &482
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 563.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34.175613
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 279.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &483
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 785.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 565.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fda80d9341b8495cb770fb7e1f7deae, type: 3}
+--- !u!1001 &484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 818.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 103.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1073.4219
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60.253754
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90.30024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 857.79755
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.209436
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 336
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 760.9418
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 54.03693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 304.98535
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!1001 &488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 122}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_Name
+      value: Quest Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 727
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.25445
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 316
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850762977ce96437ba46bb25c81361b8, type: 3}
+--- !u!196 &489
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &74406462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 832105202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &74406465 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 832105202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74406462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &74406467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 832105202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &74406468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74406462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d201a938da05bc409837892ed669b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &832105202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Name
+      value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 642.8177
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 38.35247
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 183.5148
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_IsWalking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Depth
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
